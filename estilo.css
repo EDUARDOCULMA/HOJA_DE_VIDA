@@ -1,9 +1,10 @@
 h2{
     font-family: Verdana;
-    color: #ddfcfc;
+    color: #000208;
     text-align: center;
-    background-color: #038C8C;
+    
 }
+
 
 h3{
     font-family: Verdana;
@@ -43,16 +44,15 @@ legend{
 }
 
 #presentacion{
-    margin: 10px;
-    width: 19em;
-    float: left;
+    
+    float: center;
     height: 98%;
-    background-color: #45C4C4;
+    
 }
 
 #contenido { 
     margin: 10px;
-    width: calc(100% - 22em);
+    width: 47%;
     float: right;
 }
 
@@ -71,8 +71,12 @@ legend{
 }
 
 .perfil{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 .redes a{
@@ -87,4 +91,37 @@ legend{
 
 p{
     margin: 10px 0px;
+}
+
+    
+img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
+#presentacion{
+
+    text-align: center;
+
+}
+
+#datos_personales{ 
+    margin: 10px;
+    width: 47%;
+    float: left;
+}
+#nombre{
+
+    text-align: center;
+}
+.button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
